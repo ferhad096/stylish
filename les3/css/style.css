@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.menu {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background-color: rgba(52, 58, 64, 0.5);
+  color: #fff;
+  font-size: 16px;
+  padding: 16px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu:hover {
+  background-color: #343a40;
+}
+
+.up {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  background-color: rgba(52, 58, 64, 0.5);
+  color: #fff;
+  font-size: 16px;
+  padding: 16px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.up:hover {
+  background-color: #343a40;
+}
+
+#first {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/img/bg-masthead.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 15rem;
+}
+
+#first .firstText {
+  text-align: center;
+}
+
+#first .firstText h1 {
+  font-size: 88px;
+  color: #212529;
+}
+
+#first .firstText p {
+  font-style: italic;
+  font-size: 28px;
+  color: #212529;
+  margin-bottom: 60px;
+  font-weight: bold;
+}
+
+#first .firstText a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #1d809f;
+  padding: 20px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#first .firstText a:hover {
+  background-color: #155d74;
+}
+
+#second {
+  text-align: center;
+  padding: 9rem;
+}
+
+#second h2 {
+  font-size: 32px;
+  color: #212529;
+}
+
+#second p {
+  font-size: 20px;
+  color: #212529;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#second a {
+  text-decoration: none;
+}
+
+#second .inText:hover {
+  text-decoration: underline;
+}
+
+#second .link {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+
+#second .link:hover {
+  background-color: #23272b;
+}
+
+#third {
+  background-color: #1d809f;
+  padding: 7rem 0;
+  overflow: hidden;
+}
+
+#third .thirdText {
+  text-align: center;
+}
+
+#third .thirdText h3 {
+  color: #ecb807;
+  font-size: 16px;
+}
+
+#third .thirdText h2 {
+  color: #fff;
+  font-size: 48px;
+}
+
+#third .box {
+  float: left;
+  width: 25%;
+  text-align: center;
+  margin: 30px 0;
+}
+
+#third .box i {
+  color: #1d809f;
+  font-size: 36px;
+  background-color: #fff;
+  border-radius: 100%;
+  padding: 40px;
+}
+
+#third .box .box1 {
+  padding: 40px 45px;
+}
+
+#third .box h2 {
+  color: #fff;
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+#third .box p {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+#fourth {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/img/bg-callout.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 13rem 0;
+}
+
+#fourth h2 {
+  font-size: 56px;
+  color: #212529;
+  margin-bottom: 40px;
+}
+
+#fourth a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #1d809f;
+  padding: 20px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#fourth a:hover {
+  background-color: #155d74;
+}
+
+#fifth {
+  padding: 5rem 0;
+  overflow: hidden;
+}
+
+#fifth .fifthText {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#fifth .fifthText h3 {
+  color: #ecb807;
+  font-size: 16px;
+}
+
+#fifth .fifthText h2 {
+  color: #212529;
+  font-size: 48px;
+}
+
+#fifth .boxes {
+  width: 80%;
+  margin: auto;
+}
+
+#fifth .boxes .box {
+  float: left;
+  width: 50%;
+  position: relative;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+#fifth .boxes .box img {
+  width: 100%;
+}
+
+#fifth .boxes .box h2 {
+  font-size: 32px;
+  color: #fff;
+  font-weight: 100;
+}
+
+#fifth .boxes .box p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 100;
+}
+
+#fifth .boxes .box .boxText {
+  position: absolute;
+  bottom: 15%;
+  left: 8%;
+}
+
+#fifth .boxes .box .overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1d809f;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+#fifth .boxes .box:hover .overlay {
+  opacity: 0.7;
+}
+
+#fifth .boxes .box:hover {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+#sixth {
+  text-align: center;
+  padding: 7rem 0;
+  background-color: #1d809f;
+}
+
+#sixth h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+#sixth a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #212529;
+  background-color: #f8f9fa;
+  padding: 20px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#sixth a:hover {
+  background-color: #e2e6ea;
+}
+
+#sixth .a2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #f8f9fa;
+  background-color: #343a40;
+  padding: 20px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+#sixth .a2:hover {
+  background-color: #23272b;
+}
+
+#footer {
+  text-align: center;
+  padding: 5rem 0;
+}
+
+#footer i {
+  background-color: #1d809f;
+  color: #fff;
+  padding: 20px;
+  border-radius: 100%;
+  margin: 15px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+#footer .fb {
+  padding: 20px 25px;
+}
+
+#footer p {
+  font-size: 13px;
+  color: #6c757d;
+  margin-top: 40px;
+}
+
+#footer i:hover {
+  background-color: #155d74;
+}
+/*# sourceMappingURL=style.css.map */
